@@ -1,0 +1,1 @@
+{"id": ["vp_watercannon", "vp_shockcannon_mounted"], "fg": "vp_plasmagun_1", "rotates": true, "multitile": true, "additional_tiles": [{"id": "broken", "fg": "vp_plow_1_1"}]}

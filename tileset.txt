@@ -1,0 +1,4 @@
+NAME: neodaysplus
+VIEW: NeoDaysPlus
+JSON: tile_config.json
+TILESET: tiles.png

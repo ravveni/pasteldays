@@ -1,0 +1,1 @@
+{"id": "t_root_wall", "fg": "f_alien_table_0", "rotates": false, "multitile": true, "additional_tiles": [{"id": "center", "fg": "t_root_wall_0_1"}, {"id": "corner", "fg": "t_root_wall_0_2"}, {"id": "edge", "fg": "f_alien_table_0"}, {"id": "end_piece", "fg": "t_root_wall_0_3"}, {"id": "t_connection", "fg": "t_root_wall_0_4"}, {"id": "unconnected", "fg": "f_alien_table_0"}]}

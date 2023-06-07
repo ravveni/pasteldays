@@ -1,0 +1,1 @@
+{"id": ["vp_horn_car", "vp_horn_big", "vp_beeper", "vp_chimes"], "fg": "vp_horn_car_1", "rotates": true, "multitile": true, "additional_tiles": [{"id": "broken", "fg": "t_missile_exploded_0"}]}

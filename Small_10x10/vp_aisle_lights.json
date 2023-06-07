@@ -1,0 +1,1 @@
+{"id": ["vp_aisle_lights", "vp_lit_aisle_vertical"], "fg": "vp_aisle_lights_1", "rotates": true, "multitile": true, "additional_tiles": [{"id": "broken", "fg": "t_missile_exploded_0"}]}

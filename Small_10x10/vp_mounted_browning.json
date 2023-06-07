@@ -1,0 +1,1 @@
+{"id": ["vp_mounted_browning", "vp_mounted_mk19", "vp_mounted_abzats"], "fg": "vp_mounted_browning_1", "rotates": true, "multitile": true, "additional_tiles": [{"id": "broken", "fg": "vp_hdboard_horizontal_1_1"}]}

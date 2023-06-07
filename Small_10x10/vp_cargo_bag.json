@@ -1,0 +1,1 @@
+{"id": "vp_cargo_bag", "fg": "t_fungus_floor_sup_0", "rotates": true, "multitile": true, "additional_tiles": [{"id": "broken", "fg": "t_missile_exploded_0"}]}
