@@ -1,1 +1,0 @@
-{"id": ["vp_head_light", "vp_headlight", "vp_floodlight"], "fg": "car_headlight_1", "rotates": true, "multitile": true, "additional_tiles": [{"id": "broken", "fg": "t_missile_exploded_0"}]}

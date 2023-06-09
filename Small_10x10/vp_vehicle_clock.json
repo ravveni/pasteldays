@@ -1,1 +1,0 @@
-{"id": "vp_vehicle_clock", "fg": "barometer_0", "rotates": true, "multitile": true, "additional_tiles": [{"id": "broken", "fg": "t_missile_exploded_0"}]}

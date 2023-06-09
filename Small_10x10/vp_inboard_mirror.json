@@ -1,1 +1,0 @@
-{"id": ["vp_inboard_mirror", "vp_wing_mirror"], "fg": "vp_inboard_mirror_1", "rotates": true, "multitile": true, "additional_tiles": [{"id": "broken", "fg": "t_missile_exploded_0"}]}

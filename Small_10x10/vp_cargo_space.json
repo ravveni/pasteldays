@@ -1,1 +1,0 @@
-{"id": ["vp_cargo_space", "vp_cargo_space_external"], "fg": "cargo_rack_0", "rotates": true, "multitile": true, "additional_tiles": [{"id": "broken", "fg": "t_missile_exploded_0"}]}

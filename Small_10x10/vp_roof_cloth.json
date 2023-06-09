@@ -1,1 +1,0 @@
-{"id": ["vp_roof_cloth", "vp_roof_wood", "vp_roof"], "fg": "vp_roof_cloth_1", "rotates": true, "multitile": true, "additional_tiles": [{"id": "broken", "fg": "t_missile_exploded_0"}]}

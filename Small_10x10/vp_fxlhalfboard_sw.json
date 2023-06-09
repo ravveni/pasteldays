@@ -1,1 +1,0 @@
-{"id": ["vp_fxlhalfboard_sw", "vp_clothboard_sw", "vp_cloth_halfboard_sw", "vp_xlhalfboard_sw", "vp_halfboard_sw", "vp_board_sw"], "fg": "vp_halfboard_hatch_wheel_left_1", "rotates": true, "multitile": true, "additional_tiles": [{"id": "broken", "fg": "t_missile_exploded_0"}]}

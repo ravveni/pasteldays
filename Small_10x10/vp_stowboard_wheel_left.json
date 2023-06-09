@@ -1,1 +1,0 @@
-{"id": ["vp_stowboard_wheel_left", "vp_stowboard_wheel_right"], "fg": "vp_stowboard_wheel_left_1", "rotates": true, "multitile": true, "additional_tiles": [{"id": "broken", "fg": "t_missile_exploded_0"}]}

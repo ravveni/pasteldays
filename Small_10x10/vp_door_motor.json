@@ -1,1 +1,0 @@
-{"id": "vp_door_motor", "fg": "vp_door_motor_1", "rotates": true, "multitile": true, "additional_tiles": [{"id": "broken", "fg": "t_missile_exploded_0"}]}
