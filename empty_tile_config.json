@@ -1,0 +1,112 @@
+{
+  "tile_info": [
+    {
+      "pixelscale": 2,
+      "width": 10,
+      "height": 10,
+      "iso": false,
+      "retract_dist_min": -1.0,
+      "retract_dist_max": 1.0
+    }
+  ],
+  "tiles-new": [
+    {
+      "file": "tiles.png",
+      "tiles": []
+    },
+    {
+      "file": "large.png",
+      "sprite_width": 20,
+      "sprite_height": 20,
+      "sprite_offset_x": -5,
+      "sprite_offset_y": -10,
+      "tiles": []
+    },
+    {
+      "file": "fallback.png",
+      "tiles": [],
+      "ascii": [
+        {
+          "offset": 0,
+          "bold": false,
+          "color": "BLACK"
+        },
+        {
+          "offset": 256,
+          "bold": true,
+          "color": "WHITE"
+        },
+        {
+          "offset": 512,
+          "bold": false,
+          "color": "WHITE"
+        },
+        {
+          "offset": 768,
+          "bold": true,
+          "color": "BLACK"
+        },
+        {
+          "offset": 1024,
+          "bold": false,
+          "color": "RED"
+        },
+        {
+          "offset": 1280,
+          "bold": false,
+          "color": "GREEN"
+        },
+        {
+          "offset": 1536,
+          "bold": false,
+          "color": "BLUE"
+        },
+        {
+          "offset": 1792,
+          "bold": false,
+          "color": "CYAN"
+        },
+        {
+          "offset": 2048,
+          "bold": false,
+          "color": "MAGENTA"
+        },
+        {
+          "offset": 2304,
+          "bold": false,
+          "color": "YELLOW"
+        },
+        {
+          "offset": 2560,
+          "bold": true,
+          "color": "RED"
+        },
+        {
+          "offset": 2816,
+          "bold": true,
+          "color": "GREEN"
+        },
+        {
+          "offset": 3072,
+          "bold": true,
+          "color": "BLUE"
+        },
+        {
+          "offset": 3328,
+          "bold": true,
+          "color": "CYAN"
+        },
+        {
+          "offset": 3584,
+          "bold": true,
+          "color": "MAGENTA"
+        },
+        {
+          "offset": 3840,
+          "bold": true,
+          "color": "YELLOW"
+        }
+      ]
+    }
+  ]
+}

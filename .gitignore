@@ -1,2 +1,10 @@
+# Compiled files
+ravendays/tile_config.json
+ravendays/tiles.png
+ravendays/large.png
+
+# macOS
 .DS_Store
+
+# VSCode
 .vscode/
