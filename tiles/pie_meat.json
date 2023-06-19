@@ -1,0 +1,10 @@
+{
+  "id": [
+    "pie_meat",
+    "pie_human",
+    "pie_maple",
+    "pie"
+  ],
+  "fg": "pie_meat",
+  "rotates": false
+}

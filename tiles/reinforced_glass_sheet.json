@@ -1,0 +1,8 @@
+{
+  "id": [
+    "reinforced_glass_sheet",
+    "reinforced_glass_pane"
+  ],
+  "fg": "reinforced_glass_sheet",
+  "rotates": false
+}

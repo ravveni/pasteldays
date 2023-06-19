@@ -1,0 +1,9 @@
+{
+  "id": [
+    "wire",
+    "wire_barbed",
+    "chain"
+  ],
+  "fg": "wire",
+  "rotates": false
+}

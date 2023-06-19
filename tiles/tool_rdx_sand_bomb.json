@@ -1,0 +1,8 @@
+{
+  "id": [
+    "tool_rdx_sand_bomb",
+    "pipebomb"
+  ],
+  "fg": "tool_rdx_sand_bomb",
+  "rotates": false
+}

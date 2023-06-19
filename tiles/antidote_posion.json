@@ -1,0 +1,9 @@
+{
+  "id": [
+    "antidote_posion",
+    "revival_serum",
+    "antidote_badpoison"
+  ],
+  "fg": "antidote_posion",
+  "rotates": false
+}

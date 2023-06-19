@@ -1,0 +1,10 @@
+{
+  "id": [
+    "sac_purse_clean_water_ankle",
+    "sac_purse_clean_water_arm",
+    "sac_purse_clean_water_leg",
+    "sac_purse_clean_water"
+  ],
+  "fg": "sac_purse_clean_water_ankle",
+  "rotates": false
+}

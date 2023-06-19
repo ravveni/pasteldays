@@ -1,0 +1,35 @@
+{
+  "id": [
+    "fd_toxic_gas",
+    "fd_nuke_gas"
+  ],
+  "fg": "fd_toxic_gas",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "fd_toxic_gas_center"
+    },
+    {
+      "id": "corner",
+      "fg": "fd_toxic_gas_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "fd_toxic_gas_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "fd_toxic_gas_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "fd_toxic_gas_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "fd_toxic_gas"
+    }
+  ]
+}

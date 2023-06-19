@@ -1,0 +1,8 @@
+{
+  "id": [
+    "battery",
+    "laser_capacitor"
+  ],
+  "fg": "battery",
+  "rotates": false
+}

@@ -1,0 +1,9 @@
+{
+  "id": [
+    "gasoline_cooker",
+    "oil_cooker",
+    "hotplate"
+  ],
+  "fg": "gasoline_cooker",
+  "rotates": false
+}

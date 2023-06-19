@@ -1,0 +1,20 @@
+{
+  "id": [
+    "vp_hdboard_horizontal",
+    "vp_hdboard_horizontal_front",
+    "vp_hdboard_horizontal_rear",
+    "vp_hdhalfboard_horizontal",
+    "vp_hdhalfboard_horizontal_front",
+    "vp_hdhalfboard_horizontal_rear"
+  ],
+  "fg": "vp_hdboard_horizontal",
+  "bg": "t_hole",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "broken",
+      "fg": "vp_bfg_mounted_broken"
+    }
+  ]
+}

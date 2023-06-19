@@ -1,0 +1,32 @@
+{
+  "id": "f_sandbag_wall",
+  "fg": "f_sandbag_wall",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "f_sandbag_wall_center"
+    },
+    {
+      "id": "corner",
+      "fg": "f_sandbag_wall_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "f_sandbag_wall_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "f_sandbag_wall_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "f_sandbag_wall_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "f_sandbag_wall"
+    }
+  ]
+}

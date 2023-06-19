@@ -1,0 +1,35 @@
+{
+  "id": [
+    "t_wall",
+    "t_wall_w"
+  ],
+  "fg": "t_wall",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "t_wall_center"
+    },
+    {
+      "id": "corner",
+      "fg": "t_wall_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "t_secretdoor_wall_c"
+    },
+    {
+      "id": "end_piece",
+      "fg": "t_wall_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "t_wall_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "t_wall"
+    }
+  ]
+}

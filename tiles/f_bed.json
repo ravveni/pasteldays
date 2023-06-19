@@ -1,0 +1,37 @@
+{
+  "id": [
+    "f_bed",
+    "f_floor_mattress",
+    "f_down_mattress"
+  ],
+  "//": "different sprite(s) for mattresses later",
+  "fg": "f_bed",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "f_bed_center"
+    },
+    {
+      "id": "corner",
+      "fg": "f_bed_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "f_bed_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "f_bed_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "f_bed_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "f_bed"
+    }
+  ]
+}

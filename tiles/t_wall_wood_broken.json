@@ -1,0 +1,35 @@
+{
+  "id": [
+    "t_wall_wood_broken",
+    "t_wall_log_broken"
+  ],
+  "fg": "t_wall_wood_broken",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "t_wall_wood_broken_center"
+    },
+    {
+      "id": "corner",
+      "fg": "t_wall_wood_broken_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "t_wall_wood_broken_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "t_wall_wood_broken_edge"
+    },
+    {
+      "id": "t_connection",
+      "fg": "t_wall_wood_broken_center"
+    },
+    {
+      "id": "unconnected",
+      "fg": "t_wall_wood_broken"
+    }
+  ]
+}

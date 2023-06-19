@@ -1,0 +1,10 @@
+{
+  "id": "vp_ram_spiked",
+  "fg": [
+    "vp_ram_spiked_0",
+    "vp_ram_spiked_1",
+    "vp_ram_spiked_2",
+    "vp_ram_spiked_3"
+  ],
+  "rotates": true
+}

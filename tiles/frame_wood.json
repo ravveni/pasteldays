@@ -1,0 +1,9 @@
+{
+  "id": [
+    "frame_wood",
+    "frame_wood_light",
+    "foldwoodframe"
+  ],
+  "fg": "frame_wood",
+  "rotates": false
+}

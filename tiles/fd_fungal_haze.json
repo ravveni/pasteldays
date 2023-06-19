@@ -1,0 +1,32 @@
+{
+  "id": "fd_fungal_haze",
+  "fg": "fd_fungal_haze",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "fd_fungal_haze_center"
+    },
+    {
+      "id": "corner",
+      "fg": "fd_fungal_haze_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "fd_fungal_haze_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "fd_fungal_haze_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "fd_fungal_haze_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "fd_fungal_haze"
+    }
+  ]
+}

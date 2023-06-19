@@ -1,0 +1,13 @@
+{
+  "id": "f_shrub_moss",
+  "fg": [
+    {
+      "weight": 1,
+      "sprite": "f_shrub_moss_0"
+    },
+    {
+      "weight": 1,
+      "sprite": "f_shrub_moss_1"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": [
+    "wasp_glue",
+    "wasp_glue_super",
+    "bone_glue"
+  ],
+  "fg": "wasp_glue",
+  "rotates": false
+}

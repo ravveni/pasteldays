@@ -1,0 +1,35 @@
+{
+  "id": [
+    "fd_smoke",
+    "fd_tear_gas"
+  ],
+  "fg": "fd_smoke",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "fd_smoke_center"
+    },
+    {
+      "id": "corner",
+      "fg": "fd_smoke_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "fd_smoke_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "fd_smoke_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "fd_smoke_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "fd_smoke"
+    }
+  ]
+}

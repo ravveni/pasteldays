@@ -1,0 +1,32 @@
+{
+  "id": "t_gutter_drop",
+  "fg": "t_gutter_drop",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "t_gutter_drop_center"
+    },
+    {
+      "id": "corner",
+      "fg": "t_gutter_drop_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "t_gutter_drop_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "t_gutter_drop_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "t_gutter_drop_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "t_gutter_drop"
+    }
+  ]
+}

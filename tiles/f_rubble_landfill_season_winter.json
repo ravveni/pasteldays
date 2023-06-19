@@ -1,0 +1,38 @@
+{
+  "id": "f_rubble_landfill_season_winter",
+  "fg": "f_rubble_landfill",
+  "bg": "f_rubble_landfill_season_winter",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "bg": "f_rubble_landfill_season_winter"
+    },
+    {
+      "id": "corner",
+      "fg": "f_rubble_landfill_corner",
+      "bg": "f_rubble_landfill_season_winter"
+    },
+    {
+      "id": "edge",
+      "fg": "f_rubble_landfill_edge",
+      "bg": "f_rubble_landfill_season_winter"
+    },
+    {
+      "id": "end_piece",
+      "fg": "f_rubble_landfill_end_piece",
+      "bg": "f_rubble_landfill_season_winter"
+    },
+    {
+      "id": "t_connection",
+      "fg": "f_rubble_landfill_t_connection",
+      "bg": "f_rubble_landfill_season_winter"
+    },
+    {
+      "id": "unconnected",
+      "fg": "f_rubble_landfill",
+      "bg": "f_rubble_landfill_season_winter"
+    }
+  ]
+}

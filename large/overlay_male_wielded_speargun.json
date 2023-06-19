@@ -1,0 +1,9 @@
+{
+  "id": [
+    "overlay_male_wielded_speargun",
+    "overlay_male_wielded_airspeargun",
+    "overlay_male_wielded_doublespeargun"
+  ],
+  "fg": "overlay_male_wielded_speargun",
+  "rotates": false
+}

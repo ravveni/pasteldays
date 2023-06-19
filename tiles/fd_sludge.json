@@ -1,0 +1,32 @@
+{
+  "id": "fd_sludge",
+  "fg": "fd_sludge",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "fd_sludge_center"
+    },
+    {
+      "id": "corner",
+      "fg": "fd_sludge_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "fd_sludge_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "fd_sludge_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "fd_sludge_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "fd_sludge"
+    }
+  ]
+}

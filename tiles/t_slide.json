@@ -1,0 +1,16 @@
+{
+  "id": "t_slide",
+  "fg": "t_slide",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "edge",
+      "fg": "t_slide"
+    },
+    {
+      "id": "end_piece",
+      "fg": "t_slide_end_piece"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "fd_incendiary",
+  "fg": "animation_bullet_flame",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "fd_flame_burst_center"
+    },
+    {
+      "id": "corner",
+      "fg": "fd_flame_burst_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "fd_flame_burst_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "fd_flame_burst_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "fd_flame_burst_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "animation_bullet_flame"
+    }
+  ]
+}

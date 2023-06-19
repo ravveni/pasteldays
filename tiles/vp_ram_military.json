@@ -1,0 +1,10 @@
+{
+  "id": "vp_ram_military",
+  "fg": [
+    "vp_ram_military_0",
+    "vp_ram_military_1",
+    "vp_ram_military_2",
+    "vp_ram_military_3"
+  ],
+  "rotates": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": [
+    "double_plutonium_core",
+    "it_battery_mount",
+    "battery_compartment"
+  ],
+  "fg": "double_plutonium_core",
+  "rotates": false
+}

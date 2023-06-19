@@ -1,0 +1,38 @@
+{
+  "id": "f_rubble_landfill",
+  "fg": "f_rubble_landfill",
+  "bg": "f_rubble_landfill",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "bg": "f_rubble_landfill"
+    },
+    {
+      "id": "corner",
+      "fg": "f_rubble_landfill_corner",
+      "bg": "f_rubble_landfill"
+    },
+    {
+      "id": "edge",
+      "fg": "f_rubble_landfill_edge",
+      "bg": "f_rubble_landfill"
+    },
+    {
+      "id": "end_piece",
+      "fg": "f_rubble_landfill_end_piece",
+      "bg": "f_rubble_landfill"
+    },
+    {
+      "id": "t_connection",
+      "fg": "f_rubble_landfill_t_connection",
+      "bg": "f_rubble_landfill"
+    },
+    {
+      "id": "unconnected",
+      "fg": "f_rubble_landfill",
+      "bg": "f_rubble_landfill"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": [
+    "clay_lump",
+    "clay_boiled",
+    "chocolate"
+  ],
+  "fg": "clay_lump",
+  "rotates": false
+}

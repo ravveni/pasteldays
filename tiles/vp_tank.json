@@ -1,0 +1,15 @@
+{
+  "id": [
+    "vp_tank",
+    "vp_tank_little"
+  ],
+  "fg": "metal_tank_small",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "broken",
+      "fg": "vp_alternator_car_broken"
+    }
+  ]
+}

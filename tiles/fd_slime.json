@@ -1,0 +1,32 @@
+{
+  "id": "fd_slime",
+  "fg": "fd_slime",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "fd_slime_center"
+    },
+    {
+      "id": "corner",
+      "fg": "fd_slime_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "fd_slime_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "fd_slime_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "fd_slime_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "fd_slime"
+    }
+  ]
+}

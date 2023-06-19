@@ -1,0 +1,13 @@
+{
+  "id": "mon_dark_reflection",
+  "fg": [
+    {
+      "weight": 100,
+      "sprite": "mon_dark_reflection_0"
+    },
+    {
+      "weight": 100,
+      "sprite": "mon_dark_reflection_1"
+    }
+  ]
+}

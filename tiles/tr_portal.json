@@ -1,0 +1,34 @@
+{
+  "id": "tr_portal",
+  "fg": "tr_portal",
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "tr_portal_center"
+    },
+    {
+      "id": "corner",
+      "fg": "tr_portal_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "tr_portal_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "tr_portal_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "tr_portal_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": [
+        "tr_portal",
+        "tr_portal"
+      ]
+    }
+  ]
+}

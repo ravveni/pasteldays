@@ -1,0 +1,38 @@
+{
+  "id": [
+    "t_gutter",
+    "t_gutter_north",
+    "t_gutter_east",
+    "t_gutter_south",
+    "t_gutter_west"
+  ],
+  "fg": "t_gutter",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "t_gutter_center"
+    },
+    {
+      "id": "corner",
+      "fg": "t_gutter_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "t_gutter_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "t_gutter_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "t_gutter_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "t_gutter"
+    }
+  ]
+}

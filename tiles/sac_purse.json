@@ -1,0 +1,10 @@
+{
+  "id": [
+    "sac_purse",
+    "sac_purse_ankle",
+    "sac_purse_arm",
+    "sac_purse_leg"
+  ],
+  "fg": "sac_purse",
+  "rotates": false
+}

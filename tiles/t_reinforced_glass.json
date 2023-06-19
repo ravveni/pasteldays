@@ -1,0 +1,32 @@
+{
+  "id": "t_reinforced_glass",
+  "fg": "t_reinforced_glass",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "t_reinforced_glass_center"
+    },
+    {
+      "id": "corner",
+      "fg": "t_reinforced_glass_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "t_reinforced_glass_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "t_reinforced_glass_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "t_reinforced_glass_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "t_reinforced_glass"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": [
+    "mobile_memory_card_used",
+    "mobile_memory_card_encrypted",
+    "mobile_memory_card_science",
+    "mobile_memory_card"
+  ],
+  "fg": "mobile_memory_card_used",
+  "rotates": false
+}

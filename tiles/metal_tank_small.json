@@ -1,0 +1,9 @@
+{
+  "id": [
+    "metal_tank_small",
+    "metal_tank_little",
+    "metal_tank"
+  ],
+  "fg": "metal_tank_small",
+  "rotates": false
+}

@@ -1,0 +1,35 @@
+{
+  "id": [
+    "mon_creeper_vine_terminal",
+    "mon_creeper_vine_terminal_pk"
+  ],
+  "fg": "mon_creeper_vine_terminal",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "mon_creeper_vine_terminal_center"
+    },
+    {
+      "id": "corner",
+      "fg": "mon_creeper_vine_terminal_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "mon_creeper_vine_terminal_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "mon_creeper_vine_terminal_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "mon_creeper_vine_terminal_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "mon_creeper_vine_terminal"
+    }
+  ]
+}

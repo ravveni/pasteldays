@@ -1,0 +1,17 @@
+{
+  "id": "fd_blood",
+  "fg": [
+    {
+      "weight": 3,
+      "sprite": "fd_blood_0"
+    },
+    {
+      "weight": 1,
+      "sprite": "fd_blood_1"
+    },
+    {
+      "weight": 1,
+      "sprite": "fd_blood_2"
+    }
+  ]
+}

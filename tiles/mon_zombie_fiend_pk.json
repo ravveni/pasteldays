@@ -1,0 +1,8 @@
+{
+  "id": [
+    "mon_zombie_fiend_pk",
+    "mon_zombie_fiend"
+  ],
+  "fg": "mon_zombie_fiend_pk",
+  "rotates": false
+}

@@ -1,0 +1,9 @@
+{
+  "id": [
+    "overlay_female_wielded_katana",
+    "overlay_female_wielded_estoc",
+    "overlay_female_wielded_nodachi"
+  ],
+  "fg": "overlay_female_wielded_katana",
+  "rotates": false
+}

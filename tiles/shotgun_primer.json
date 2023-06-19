@@ -1,0 +1,11 @@
+{
+  "id": [
+    "shotgun_primer",
+    "smpistol_primer",
+    "lgpistol_primer",
+    "smrifle_primer",
+    "lgrifle_primer"
+  ],
+  "fg": "shotgun_primer",
+  "rotates": false
+}

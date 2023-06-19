@@ -1,0 +1,10 @@
+{
+  "id": "vp_ram_steel",
+  "fg": [
+    "vp_ram_steel_0",
+    "vp_ram_steel_1",
+    "vp_ram_steel_2",
+    "vp_ram_steel_3"
+  ],
+  "rotates": true
+}

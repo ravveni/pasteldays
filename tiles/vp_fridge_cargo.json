@@ -1,0 +1,14 @@
+{
+  "id": "vp_fridge_cargo",
+  "fg": "fridge_cargo",
+  "bg": "t_hole",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "broken",
+      "fg": "vp_autoclave_broken",
+      "bg": "t_hole"
+    }
+  ]
+}

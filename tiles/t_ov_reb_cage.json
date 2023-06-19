@@ -1,0 +1,9 @@
+{
+  "id": [
+    "t_ov_reb_cage",
+    "t_ov_smreb_cage",
+    "t_metal"
+  ],
+  "fg": "t_ov_reb_cage",
+  "rotates": false
+}

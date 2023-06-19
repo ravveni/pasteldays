@@ -1,0 +1,32 @@
+{
+  "id": "explosion_weak",
+  "fg": "explosion_weak",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "explosion_weak"
+    },
+    {
+      "id": "corner",
+      "fg": "explosion_weak_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "explosion_weak"
+    },
+    {
+      "id": "end_piece",
+      "fg": "explosion_weak"
+    },
+    {
+      "id": "t_connection",
+      "fg": "explosion_weak"
+    },
+    {
+      "id": "unconnected",
+      "fg": "explosion_weak"
+    }
+  ]
+}

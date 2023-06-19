@@ -1,0 +1,32 @@
+{
+  "id": "fd_tindalos_gas",
+  "fg": "fd_tindalos_gas",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "fd_tindalos_gas_center"
+    },
+    {
+      "id": "corner",
+      "fg": "fd_tindalos_gas_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "fd_tindalos_gas_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "fd_tindalos_gas_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "fd_tindalos_gas_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "fd_tindalos_gas"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "vp_ram_chitin",
+  "fg": [
+    "vp_ram_chitin_0",
+    "vp_ram_chitin_1",
+    "vp_ram_chitin_2",
+    "vp_ram_chitin_3"
+  ],
+  "rotates": true
+}

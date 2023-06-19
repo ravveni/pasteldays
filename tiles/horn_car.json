@@ -1,0 +1,11 @@
+{
+  "id": [
+    "horn_car",
+    "horn_big",
+    "beeper",
+    "chimes",
+    "horn_bicycle"
+  ],
+  "fg": "horn_car",
+  "rotates": false
+}

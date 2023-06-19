@@ -1,0 +1,32 @@
+{
+  "id": "explosion_medium",
+  "fg": "explosion_medium",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "explosion_medium"
+    },
+    {
+      "id": "corner",
+      "fg": "explosion_medium_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "explosion_medium"
+    },
+    {
+      "id": "end_piece",
+      "fg": "explosion_medium"
+    },
+    {
+      "id": "t_connection",
+      "fg": "explosion_medium"
+    },
+    {
+      "id": "unconnected",
+      "fg": "explosion_medium"
+    }
+  ]
+}

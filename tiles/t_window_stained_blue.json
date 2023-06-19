@@ -1,0 +1,12 @@
+{
+  "id": "t_window_stained_blue",
+  "fg": "t_window_stained_blue",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "t_connection",
+      "fg": "t_window_stained_blue_t_connection"
+    }
+  ]
+}

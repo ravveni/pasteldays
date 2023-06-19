@@ -1,0 +1,32 @@
+{
+  "id": "f_alien_table",
+  "fg": "f_alien_table",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "f_alien_table_center"
+    },
+    {
+      "id": "corner",
+      "fg": "f_alien_table_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "f_alien_table_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "f_alien_table_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "f_alien_table_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "f_alien_table"
+    }
+  ]
+}

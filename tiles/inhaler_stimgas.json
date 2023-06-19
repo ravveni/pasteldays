@@ -1,0 +1,9 @@
+{
+  "id": [
+    "inhaler_stimgas",
+    "inhaler",
+    "inhaler_sewergas"
+  ],
+  "fg": "inhaler_stimgas",
+  "rotates": false
+}

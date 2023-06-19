@@ -1,0 +1,13 @@
+{
+  "id": "mon_civilian_panic",
+  "fg": [
+    {
+      "weight": 1,
+      "sprite": "mon_civilian_panic_0"
+    },
+    {
+      "weight": 1,
+      "sprite": "mon_civilian_panic_1"
+    }
+  ]
+}

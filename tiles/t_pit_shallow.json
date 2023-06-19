@@ -1,0 +1,31 @@
+{
+  "id": "t_pit_shallow",
+  "fg": "t_pit_shallow",
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "t_pit_shallow_center"
+    },
+    {
+      "id": "corner",
+      "fg": "t_pit_shallow_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "t_pit_shallow_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "t_pit_shallow_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "t_pit_shallow_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "t_pit_shallow"
+    }
+  ]
+}

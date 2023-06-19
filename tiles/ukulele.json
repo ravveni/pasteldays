@@ -1,0 +1,10 @@
+{
+  "id": [
+    "ukulele",
+    "violin",
+    "acoustic_guitar",
+    "banjo"
+  ],
+  "fg": "ukulele",
+  "rotates": false
+}

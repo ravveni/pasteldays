@@ -1,0 +1,16 @@
+{
+  "id": [
+    "vp_veh_table",
+    "vp_veh_table_wood"
+  ],
+  "fg": "v_table",
+  "bg": "t_hole",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "broken",
+      "fg": "vp_box_broken"
+    }
+  ]
+}

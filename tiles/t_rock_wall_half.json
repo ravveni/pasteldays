@@ -1,0 +1,36 @@
+{
+  "id": [
+    "t_rock_wall_half",
+    "t_sconc_wall_halfway",
+    "t_strconc_wall_halfway"
+  ],
+  "fg": "t_rock_wall_half",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "t_rock_wall_half_center"
+    },
+    {
+      "id": "corner",
+      "fg": "t_rock_wall_half_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "t_rock_wall_half_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "t_rock_wall_half_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "t_rock_wall_half_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "t_rock_wall_half"
+    }
+  ]
+}

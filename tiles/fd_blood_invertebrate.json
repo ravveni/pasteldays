@@ -1,0 +1,20 @@
+{
+  "id": [
+    "fd_blood_invertebrate",
+    "fd_gibs_invertebrate"
+  ],
+  "fg": [
+    {
+      "weight": 3,
+      "sprite": "fd_blood_invertebrate_0"
+    },
+    {
+      "weight": 1,
+      "sprite": "fd_blood_invertebrate_1"
+    },
+    {
+      "weight": 1,
+      "sprite": "fd_blood_invertebrate_2"
+    }
+  ]
+}

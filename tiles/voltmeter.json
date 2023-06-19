@@ -1,0 +1,12 @@
+{
+  "id": [
+    "voltmeter",
+    "balance_small",
+    "melting_point",
+    "spectrophotometer",
+    "ph_meter",
+    "vortex"
+  ],
+  "fg": "voltmeter",
+  "rotates": false
+}

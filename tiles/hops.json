@@ -1,0 +1,9 @@
+{
+  "id": [
+    "hops",
+    "celery",
+    "irradiated_celery"
+  ],
+  "fg": "hops",
+  "rotates": false
+}

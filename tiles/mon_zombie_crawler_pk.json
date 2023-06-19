@@ -1,0 +1,9 @@
+{
+  "id": [
+    "mon_zombie_crawler_pk",
+    "mon_zombie_crawler_pk_weak",
+    "mon_zombie_crawler"
+  ],
+  "fg": "mon_zombie_crawler_pk",
+  "rotates": false
+}

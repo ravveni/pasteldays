@@ -1,0 +1,35 @@
+{
+  "id": [
+    "fd_fatigue",
+    "fd_relax_gas"
+  ],
+  "fg": "fd_fatigue",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "fd_fatigue_center"
+    },
+    {
+      "id": "corner",
+      "fg": "fd_fatigue_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "fd_fatigue_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "fd_fatigue_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "fd_fatigue_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "fd_fatigue"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": [
+    "fish",
+    "lunchmeat",
+    "fried_spam",
+    "meat_aspic",
+    "hflesh_aspic",
+    "sashimi"
+  ],
+  "fg": "fish",
+  "rotates": false
+}

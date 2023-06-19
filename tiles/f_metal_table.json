@@ -1,0 +1,32 @@
+{
+  "id": "f_metal_table",
+  "fg": "f_metal_table",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "f_metal_table_center"
+    },
+    {
+      "id": "corner",
+      "fg": "f_metal_table_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "f_metal_table_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "f_metal_table_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "f_metal_table_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "f_metal_table"
+    }
+  ]
+}

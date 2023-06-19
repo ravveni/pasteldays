@@ -1,0 +1,13 @@
+{
+  "id": "vp_cam_control",
+  "fg": "camera_control",
+  "bg": "t_hole",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "broken",
+      "fg": "vp_alternator_car_broken"
+    }
+  ]
+}

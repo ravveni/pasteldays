@@ -1,0 +1,32 @@
+{
+  "id": "f_skin_wall",
+  "fg": "f_skin_wall",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "f_skin_wall_center"
+    },
+    {
+      "id": "corner",
+      "fg": "f_skin_wall_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "f_skin_wall_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "f_skin_wall_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "f_skin_wall_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "f_skin_wall"
+    }
+  ]
+}

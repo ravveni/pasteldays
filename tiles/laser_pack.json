@@ -1,0 +1,9 @@
+{
+  "id": [
+    "laser_pack",
+    "reloaded_laser_pack",
+    "rechargeable_battery"
+  ],
+  "fg": "laser_pack",
+  "rotates": false
+}

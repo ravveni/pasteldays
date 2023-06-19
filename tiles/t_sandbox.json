@@ -1,0 +1,32 @@
+{
+  "id": "t_sandbox",
+  "fg": "t_sandbox",
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "t_sandbox_center"
+    },
+    {
+      "id": "corner",
+      "fg": "t_sandbox_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "t_sandbox_edge"
+    },
+    {
+      "id": "end_piece",
+      "fg": "t_sandbox_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "t_sandbox_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "t_sandbox",
+      "//": "why is this design different?"
+    }
+  ]
+}

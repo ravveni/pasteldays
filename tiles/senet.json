@@ -1,0 +1,20 @@
+{
+  "id": [
+    "senet",
+    "mahjong",
+    "chaturanga",
+    "backgammon",
+    "latrunculi",
+    "go",
+    "shogi",
+    "hnefatafl",
+    "domino",
+    "jackstraws",
+    "snakesnladders",
+    "ludo",
+    "poppirate",
+    "ranger",
+    "openfire"
+  ],
+  "fg": "senet"
+}

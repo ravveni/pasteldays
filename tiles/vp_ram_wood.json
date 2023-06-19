@@ -1,0 +1,10 @@
+{
+  "id": "vp_ram_wood",
+  "fg": [
+    "vp_ram_wood_0",
+    "vp_ram_wood_1",
+    "vp_ram_wood_2",
+    "vp_ram_wood_3"
+  ],
+  "rotates": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": [
+    "bomblet_archvile",
+    "bomblet_fire",
+    "bomblet_vile"
+  ],
+  "fg": "bomblet_archvile",
+  "rotates": false
+}

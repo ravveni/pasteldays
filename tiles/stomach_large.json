@@ -1,0 +1,10 @@
+{
+  "id": [
+    "stomach_large",
+    "hstomach",
+    "hstomach_large",
+    "stomach"
+  ],
+  "fg": "stomach_large",
+  "rotates": false
+}

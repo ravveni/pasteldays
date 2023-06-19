@@ -1,0 +1,9 @@
+{
+  "id": [
+    "fruit_pancakes",
+    "choc_pancakes",
+    "pancakes"
+  ],
+  "fg": "fruit_pancakes",
+  "rotates": false
+}

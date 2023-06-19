@@ -1,0 +1,9 @@
+{
+  "id": [
+    "fishing_hook_basic",
+    "fishing_hook_bone",
+    "needle_curved"
+  ],
+  "fg": "fishing_hook_basic",
+  "rotates": false
+}

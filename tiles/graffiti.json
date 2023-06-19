@@ -1,0 +1,78 @@
+{
+  "id": "graffiti",
+  "//": "most text only graffiti are registered as just 'graffiti'. change here if it gets fixed",
+  "fg": [
+    {
+      "weight": 10,
+      "sprite": "graffiti_0"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_1"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_2"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_3"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_4"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_5"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_6"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_7"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_8"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_9"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_10"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_11"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_12"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_13"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_14"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_15"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_16"
+    },
+    {
+      "weight": 10,
+      "sprite": "graffiti_17"
+    }
+  ]
+}

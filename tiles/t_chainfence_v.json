@@ -1,0 +1,37 @@
+{
+  "id": [
+    "t_chainfence_v",
+    "t_chainfence",
+    "t_chainfence_h",
+    "t_fence_wire"
+  ],
+  "fg": "t_chainfence_v",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "t_chainfence_v_center"
+    },
+    {
+      "id": "corner",
+      "fg": "t_chainfence_v_corner"
+    },
+    {
+      "id": "edge",
+      "fg": "t_chainfence_v"
+    },
+    {
+      "id": "end_piece",
+      "fg": "t_chainfence_v_end_piece"
+    },
+    {
+      "id": "t_connection",
+      "fg": "t_chainfence_v_t_connection"
+    },
+    {
+      "id": "unconnected",
+      "fg": "t_chainfence_v"
+    }
+  ]
+}

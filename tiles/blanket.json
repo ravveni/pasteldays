@@ -1,0 +1,9 @@
+{
+  "id": [
+    "blanket",
+    "down_blanket",
+    "towel_wet"
+  ],
+  "fg": "blanket",
+  "rotates": false
+}

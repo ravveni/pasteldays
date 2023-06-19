@@ -1,0 +1,10 @@
+{
+  "id": [
+    "spaghetti_bolognese",
+    "spaghetti_human",
+    "chili",
+    "chili_human"
+  ],
+  "fg": "spaghetti_bolognese",
+  "rotates": false
+}
