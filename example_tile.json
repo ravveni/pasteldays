@@ -1,4 +1,1 @@
-{
-  "id": "id_from_data_json",
-  "fg": "id_from_data_json/image_name"
-}
+{"id": "id_from_data_json", "fg": "id_from_data_json/image_name", "rotates": false}

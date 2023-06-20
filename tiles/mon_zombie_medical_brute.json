@@ -1,4 +1,5 @@
 {
   "id": "mon_zombie_medical_brute",
-  "fg": "mon_zombie_medical_brute"
+  "fg": "mon_zombie_medical_brute", 
+  "rotates": false
 }
