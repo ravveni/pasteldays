@@ -1,5 +1,5 @@
 # RavenDays
-A de-noised, low-contrast version of the NeoDays tileset for Cataclysm: Dark Days Ahead. In the process of being re-colored to the palette, [Duel](https://lospec.com/palette-list/duel). 
+A de-noised, low-contrast version of the NeoDays tileset for Cataclysm: Dark Days Ahead. In the process of being re-coloured to the palette, [Duel](https://lospec.com/palette-list/duel). 
 
 Being kept up-to-date with any additions to the OG NeoDays tileset, and added to when fallbacks are found.
 
