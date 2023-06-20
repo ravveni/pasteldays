@@ -3,7 +3,7 @@ A de-noised, low-contrast version of the NeoDays tileset for Cataclysm: Dark Day
 
 Being kept up-to-date with any additions to the OG NeoDays tileset, and added to when fallbacks are found.
 
-![](https://i.imgur.com/4DMwbKN.png?raw=true)
+![](https://i.imgur.com/IgSGZNd.png?raw=true)
 
 # Contributing 
 1. Colouring should be done using the linked/provided palette.
