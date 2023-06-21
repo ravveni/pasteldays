@@ -26,19 +26,19 @@ def add_tiles_to_ref(directory: str, starting_index: int = 1):
 
 def build_ref():
   # tiles
-  add_tiles_to_ref("tiles/")
+  add_tiles_to_ref("gfx/tiles/")
   next_starting_index = math.ceil(len(tile_ref.keys()) / 16) * 16
   previous_keys = len(tile_ref.keys())
 
   # large
-  add_tiles_to_ref("large/", next_starting_index)
+  add_tiles_to_ref("gfx/large/", next_starting_index)
   keys_added = len(tile_ref.keys()) - previous_keys
   # next_starting_index = round(keys_added / 16) * 16
 
 def build_spritesheet(directory, tile_size):
   tiles = []
 
-  directory_path = directory + "/"
+  directory_path = "gfx/" + directory + "/"
   files = os.listdir(directory_path)
   files.sort()
 
@@ -137,7 +137,7 @@ def change_sprite_values(value_key: str, json_data: dict) -> dict:
   return updated_json
 
 def create_config_addition(directory) -> list:
-  directory_path = directory + "/"
+  directory_path = "gfx/" + directory + "/"
   directory_json = []
   json_files = []
 
@@ -160,7 +160,7 @@ def create_config_addition(directory) -> list:
 def generate_tile_config():
   tile_config = {}
 
-  with open('empty_tile_config.json', 'r') as f:
+  with open('templates/empty_tile_config.json', 'r') as f:
     tile_config = json.load(f)
     f.close()
 
