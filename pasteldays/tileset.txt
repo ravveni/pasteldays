@@ -1,8 +1,8 @@
-# RAVENDAYS
-NAME: ravendays
-VIEW: RavenDays
+# PASTELDAYS
+NAME: pasteldays
+VIEW: PastelDays
 JSON: tile_config.json
 TILESET: tiles.png
 
-# RavenDays is a modified version of NeoDays, 
+# PastelDays is a modified version of NeoDays, 
 # it was imported from Cataclysm: Dark Days Ahead under Creative Commons Attribution-ShareAlike 3.0 Unported License(http://creativecommons.org/licenses/by-sa/3.0/)

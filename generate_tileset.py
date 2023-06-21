@@ -79,7 +79,7 @@ def build_spritesheet(directory, tile_size):
 
       spritesheet.paste(cut_frame, box)
 
-  spritesheet.save("ravendays/" + directory + ".png", "PNG")
+  spritesheet.save("pasteldays/" + directory + ".png", "PNG")
 
 def create_spritesheets():
   build_spritesheet("tiles", 10)
@@ -167,7 +167,7 @@ def generate_tile_config():
   tile_config["tiles-new"][0]["tiles"] = create_config_addition("tiles")
   tile_config["tiles-new"][1]["tiles"] = create_config_addition("large")
 
-  with open("ravendays/tile_config.json", "w") as outfile:
+  with open("pasteldays/tile_config.json", "w") as outfile:
     json.dump(tile_config, outfile, indent=2)
     outfile.close()
 

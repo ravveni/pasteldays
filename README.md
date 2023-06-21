@@ -1,4 +1,4 @@
-# RavenDays
+# PastelDays
 A de-noised, low-contrast version of the NeoDays tileset for Cataclysm: Dark Days Ahead. In the process of being re-coloured to the palette, [Duel](https://lospec.com/palette-list/duel). 
 
 Being kept up-to-date with any additions to the OG NeoDays tileset, and added to when fallbacks are found.
@@ -9,7 +9,7 @@ Being kept up-to-date with any additions to the OG NeoDays tileset, and added to
 1. Colouring should be done using the linked/provided palette.
 2. Any additions should have a corresponding json file (use `example_tile.json` as a reference).
 3. The `id` for missing objects can be found by searching the CDDA json game data. Place added png(s) and json file(s) in respective folder. 
-4. Run `generate_tileset.py` to compile the final tileset files into the `ravendays` directory. 
+4. Run `generate_tileset.py` to compile the final tileset files into the `pasteldays` directory. 
 5. Test in-game and provide screenshots for the PR.
 
 # Credit
