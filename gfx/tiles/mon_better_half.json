@@ -3,11 +3,11 @@
   "fg": [
     {
       "weight": 50,
-      "sprite": "overlay_mutation_THRESH_ALPHA"
+      "sprite": "mon_better_half_0"
     },
     {
       "weight": 50,
-      "sprite": "overlay_male_mutation_THRESH_ALPHA"
+      "sprite": "mon_better_half_1"
     }
   ]
 }

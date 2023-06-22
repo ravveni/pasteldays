@@ -3,5 +3,5 @@
     "vp_wheel_mount_light",
     "vp_wheel_mount_light_steerable"
   ],
-  "fg": "wheel_mount_light"
+  "fg": "vp_wheel_mount_light"
 }

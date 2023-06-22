@@ -1,6 +1,6 @@
 {
   "id": "vp_welding_rig",
-  "fg": "weldrig",
+  "fg": "vp_welding_rig",
   "bg": "t_hole",
   "rotates": false,
   "multitile": true,
