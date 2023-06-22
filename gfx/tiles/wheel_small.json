@@ -3,6 +3,6 @@
     "wheel_small",
     "wheel_barrow"
   ],
-  "fg": "wheel_small",
+  "fg": "vp_wheel_small",
   "rotates": true
 }

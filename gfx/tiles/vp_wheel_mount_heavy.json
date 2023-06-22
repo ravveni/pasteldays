@@ -3,5 +3,5 @@
     "vp_wheel_mount_heavy",
     "vp_wheel_mount_heavy_steerable"
   ],
-  "fg": "wheel_mount_heavy"
+  "fg": "vp_wheel_mount_heavy"
 }

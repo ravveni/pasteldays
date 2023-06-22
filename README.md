@@ -14,11 +14,11 @@ Being kept up-to-date with any additions to the OG NeoDays tileset, and added to
 5. Test in-game to provide screenshots for the PR.
 
 # Credit
-Apart from my small additions and modifications, **all credit goes to the contributers of the original NeoDays tileset**. Located in the [main CDDA tileset repository](https://github.com/I-am-Erk/CDDA-Tilesets).
+Apart from my personal additions and modifications, **all credit goes to the contributers of the original NeoDays tileset**. Located in the [main CDDA tileset repository](https://github.com/I-am-Erk/CDDA-Tilesets).
 
-Credit for the Duel palette belongs to [@arilynart](https://lospec.com/arilynart).
+Credit for the Duel colour palette belongs to [@arilynart](https://lospec.com/arilynart).
 
-Due to my method of mass modification, the pngs and json files for this tileset have been consolidated into two buckets, tiles (10x10px), and large (20x20px) instead of the cleaner, multi-folder organization of the original repo, causing me to ultimately fork it.
+Due to my method of mass modification, the pngs and json files for this tileset have been consolidated into two buckets (for now): tiles (10x10px) and large (20x20px), instead of the cleaner, multi-folder organization of the original repo, causing me to ultimately fork it.
 
 ---
 

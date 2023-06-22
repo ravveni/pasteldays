@@ -3,7 +3,7 @@
     "fd_smoke",
     "fd_tear_gas"
   ],
-  "fg": "fd_smoke",
+  "fg": "f_metal_smoking_rack_active",
   "rotates": false,
   "multitile": true,
   "additional_tiles": [
@@ -29,7 +29,7 @@
     },
     {
       "id": "unconnected",
-      "fg": "fd_smoke"
+      "fg": "f_metal_smoking_rack_active"
     }
   ]
 }

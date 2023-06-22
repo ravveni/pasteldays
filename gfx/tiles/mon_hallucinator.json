@@ -3,11 +3,11 @@
   "fg": [
     {
       "weight": 100,
-      "sprite": "player_male"
+      "sprite": "mon_hallucinator_0"
     },
     {
       "weight": 100,
-      "sprite": "player_female"
+      "sprite": "mon_hallucinator_1"
     }
   ]
 }

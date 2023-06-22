@@ -1,6 +1,6 @@
 {
   "id": "f_desk",
-  "fg": "f_desk",
+  "fg": "f_ball_mach",
   "rotates": false,
   "multitile": true,
   "additional_tiles": [
@@ -26,7 +26,7 @@
     },
     {
       "id": "unconnected",
-      "fg": "f_desk"
+      "fg": "f_ball_mach"
     }
   ]
 }

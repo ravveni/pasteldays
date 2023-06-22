@@ -12,7 +12,7 @@
   "additional_tiles": [
     {
       "id": "broken",
-      "fg": "vp_box_broken"
+      "fg": "vp_boat_board_broken"
     }
   ]
 }
