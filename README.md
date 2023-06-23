@@ -1,7 +1,7 @@
 ![](https://i.imgur.com/6naWCzL.png?raw=true)
 
 # PastelDays
-A de-noised, low-contrast version of the NeoDays tileset for Cataclysm: Dark Days Ahead.
+A desaturated, low-contrast version of the NeoDays tileset for Cataclysm: Dark Days Ahead.
 
 # Contributing 
 1. Limit colours to those those within `templates/palette.png`
