@@ -1,7 +1,4 @@
 {
-  "id": [
-    "f_locker",
-    "t_switchgear_s"
-  ],
+  "id": "f_locker",
   "fg": "f_locker"
 }
