@@ -7,7 +7,7 @@
     "vp_hdhatch_opaque"
   ],
   "fg": "vp_hddoor_trunk",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [
@@ -19,7 +19,7 @@
     {
       "id": "open",
       "fg": "vp_hddoor_trunk_open",
-      "bg": "t_hole"
+      "bg": "background"
     }
   ]
 }

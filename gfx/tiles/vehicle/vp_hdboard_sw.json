@@ -4,7 +4,7 @@
     "vp_hdhalfboard_sw"
   ],
   "fg": "vp_hdboard_sw",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [

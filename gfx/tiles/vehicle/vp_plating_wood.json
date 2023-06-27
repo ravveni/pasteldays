@@ -1,6 +1,6 @@
 {
   "id": "vp_plating_wood",
   "fg": "vp_plating_wood",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true
 }

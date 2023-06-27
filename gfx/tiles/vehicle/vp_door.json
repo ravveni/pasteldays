@@ -4,7 +4,7 @@
     "vp_fdoor"
   ],
   "fg": "vp_door",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": false,
   "multitile": true,
   "additional_tiles": [

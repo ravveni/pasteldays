@@ -1,6 +1,6 @@
 {
   "id": "vp_plating_military",
   "fg": "vp_plating_military",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true
 }

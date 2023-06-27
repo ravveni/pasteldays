@@ -16,7 +16,7 @@
     "vp_windshield_full_right"
   ],
   "fg": "vp_windshield_vertical",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [

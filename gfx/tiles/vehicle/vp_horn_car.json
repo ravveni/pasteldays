@@ -6,7 +6,7 @@
     "vp_chimes"
   ],
   "fg": "vp_horn_car",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [

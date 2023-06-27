@@ -4,7 +4,7 @@
     "vp_hddoor_right"
   ],
   "fg": "vp_hddoor_ne",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [
@@ -16,7 +16,7 @@
     {
       "id": "open",
       "fg": "vp_hddoor_open",
-      "bg": "t_hole"
+      "bg": "background"
     }
   ]
 }

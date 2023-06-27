@@ -4,7 +4,7 @@
     "vp_fusion_gun"
   ],
   "fg": "vp_laser_rifle",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [

@@ -6,7 +6,7 @@
     "vp_windshield_full_se_edge"
   ],
   "fg": "vp_windshield_se",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [

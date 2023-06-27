@@ -1,7 +1,7 @@
 {
   "id": "vp_light_red",
   "fg": "light_emergency_red",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [

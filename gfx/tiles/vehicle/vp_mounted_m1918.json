@@ -6,7 +6,7 @@
     "vp_tow_turret"
   ],
   "fg": "vp_mounted_m1918",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [

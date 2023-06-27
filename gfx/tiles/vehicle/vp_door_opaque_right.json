@@ -5,7 +5,7 @@
   ],
   "//": "this doesn't seem to work and seems to affect every tileset, leaving here when/if fixed",
   "fg": "vp_door_opaque_right",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [
@@ -17,7 +17,7 @@
     {
       "id": "open",
       "fg": "vp_door_open",
-      "bg": "t_hole"
+      "bg": "background"
     }
   ]
 }

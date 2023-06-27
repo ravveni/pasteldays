@@ -1,6 +1,6 @@
 {
   "id": "vp_plating_superalloy",
   "fg": "vp_plating_superalloy",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true
 }

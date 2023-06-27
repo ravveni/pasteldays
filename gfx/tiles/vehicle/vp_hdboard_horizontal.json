@@ -8,7 +8,7 @@
     "vp_hdhalfboard_horizontal_rear"
   ],
   "fg": "vp_hdboard_horizontal",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [

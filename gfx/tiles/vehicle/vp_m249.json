@@ -6,7 +6,7 @@
     "vp_mounted_m134"
   ],
   "fg": "vp_m249",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [

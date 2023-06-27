@@ -1,7 +1,7 @@
 {
   "id": "vp_controls",
   "fg": "vehicle_controls",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [

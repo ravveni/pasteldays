@@ -14,7 +14,7 @@
     "vp_cloth_halfboard_vertical_2_right"
   ],
   "fg": "vp_halfboard_vertical_2",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [

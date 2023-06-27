@@ -4,7 +4,7 @@
     "vp_veh_table_wood"
   ],
   "fg": "v_table",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [

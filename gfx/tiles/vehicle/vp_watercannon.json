@@ -4,7 +4,7 @@
     "vp_shockcannon_mounted"
   ],
   "fg": "vp_plasmagun",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [

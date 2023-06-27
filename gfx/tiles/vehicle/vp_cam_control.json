@@ -1,7 +1,7 @@
 {
   "id": "vp_cam_control",
   "fg": "camera_control",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [

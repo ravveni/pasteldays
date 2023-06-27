@@ -1,14 +1,14 @@
 {
   "id": "vp_chemlab",
   "fg": "chemlab",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": false,
   "multitile": true,
   "additional_tiles": [
     {
       "id": "broken",
       "fg": "vp_autoclave_broken",
-      "bg": "t_hole"
+      "bg": "background"
     }
   ]
 }

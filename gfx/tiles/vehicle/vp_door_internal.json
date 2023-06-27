@@ -5,7 +5,7 @@
     "vp_door_internal_rear"
   ],
   "fg": "vp_door_internal",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [
@@ -17,7 +17,7 @@
     {
       "id": "open",
       "fg": "vp_door_open",
-      "bg": "t_hole"
+      "bg": "background"
     }
   ]
 }

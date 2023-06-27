@@ -5,7 +5,7 @@
     "vp_woodhalfboard_vertical_2_right"
   ],
   "fg": "vp_woodhalfboard_vertical_2",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [

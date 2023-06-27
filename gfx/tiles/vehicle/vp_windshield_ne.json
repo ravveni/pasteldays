@@ -8,7 +8,7 @@
     "vp_windshield_full_wheel_right"
   ],
   "fg": "vp_windshield_ne",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [

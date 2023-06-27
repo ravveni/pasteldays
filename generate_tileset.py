@@ -5,17 +5,27 @@ import json, math, os, time
 
 tile_ref = {}
 
-def add_tiles_to_ref(directory: str, starting_index: int = 1):
+def add_pictures_from_directory(directory) -> list:
   filenames = []
 
   for filename in os.listdir(directory):
     if filename == "0000.png": continue
-
     if filename.endswith(".png"):
       filename = filename.split(".")[0]
       filenames.append(filename)
 
+    if os.path.isdir(directory + filename):
+      holder = add_pictures_from_directory(directory + filename + "/")
+      for nested_file in holder:
+        filenames.append(nested_file)
+
   filenames.sort()
+  return filenames
+
+def add_tiles_to_ref(directory: str, starting_index: int = 1):
+  filenames = []
+
+  filenames = add_pictures_from_directory(directory)
 
   file_index = starting_index
 
@@ -23,6 +33,10 @@ def add_tiles_to_ref(directory: str, starting_index: int = 1):
     if filename not in tile_ref:
       tile_ref[filename] = file_index
       file_index += 1
+  
+  with open("tile_ref.json", "w") as outfile:
+    json.dump(tile_ref, outfile)
+    outfile.close()
 
 def build_ref():
   # tiles
@@ -31,16 +45,30 @@ def build_ref():
   previous_keys = len(tile_ref.keys())
 
   # large
-  add_tiles_to_ref("gfx/large/", next_starting_index)
-  keys_added = len(tile_ref.keys()) - previous_keys
+  # add_tiles_to_ref("gfx/large/", next_starting_index)
+  # keys_added = len(tile_ref.keys()) - previous_keys
   # next_starting_index = round(keys_added / 16) * 16
+
+def build_spritepath_ref(directory) -> list:
+  filenames = []
+
+  for filename in os.listdir(directory):
+    if filename.endswith(".png"):
+      filenames.append(os.path.realpath(filename) + ".png")
+
+    if os.path.isdir(directory + filename):
+      holder = build_spritepath_ref(directory + filename + "/")
+      for nested_file in holder:
+        filenames.append(os.path.realpath(nested_file) + ".png")
+
+  filenames.sort()
+  return filenames
 
 def build_spritesheet(directory, tile_size):
   tiles = []
 
   directory_path = "gfx/" + directory + "/"
-  files = os.listdir(directory_path)
-  files.sort()
+  files = build_spritepath_ref(directory_path)
 
   for current_file in files :
       try:
@@ -83,7 +111,7 @@ def build_spritesheet(directory, tile_size):
 
 def create_spritesheets():
   build_spritesheet("tiles", 10)
-  build_spritesheet("large", 20)
+  # build_spritesheet("large", 20)
 
 def change_sprite_values(value_key: str, json_data: dict) -> dict:
   updated_json = json_data
@@ -174,7 +202,7 @@ def generate_tile_config():
 def main():
   build_ref()
   create_spritesheets()
-  generate_tile_config()
+  # generate_tile_config()
 
 if __name__ == "__main__":
     main()

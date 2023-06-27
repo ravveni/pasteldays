@@ -7,7 +7,7 @@
     "vp_stowboard_wheel_right"
   ],
   "fg": "vp_stowboard_vertical",
-  "bg": "t_hole",
+  "bg": "background",
   "rotates": true,
   "multitile": true,
   "additional_tiles": [
