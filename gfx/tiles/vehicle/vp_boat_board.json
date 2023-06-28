@@ -1,0 +1,43 @@
+{
+  "id": "vp_boat_board",
+  "fg": "vp_boat_board",
+  "bg": "background",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "broken",
+      "fg": "vp_boat_board_broken"
+    },
+    {
+      "id": "center",
+      "fg": "vp_boat_board_center",
+      "bg": "background"
+    },
+    {
+      "id": "corner",
+      "fg": "vp_boat_board_corner",
+      "bg": "background"
+    },
+    {
+      "id": "edge",
+      "fg": "vp_boat_board_edge",
+      "bg": "background"
+    },
+    {
+      "id": "end_piece",
+      "fg": "vp_boat_board_edge",
+      "bg": "background"
+    },
+    {
+      "id": "t_connection",
+      "fg": "vp_boat_board_t_connection",
+      "bg": "background"
+    },
+    {
+      "id": "unconnected",
+      "fg": "vp_boat_board",
+      "bg": "background"
+    }
+  ]
+}

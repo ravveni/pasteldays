@@ -1,0 +1,23 @@
+{
+  "id": [
+    "vp_windshield_sw",
+    "vp_windshield_sw_edge",
+    "vp_windshield_full_sw",
+    "vp_windshield_full_sw_edge"
+  ],
+  "fg": "vp_windshield_sw",
+  "bg": "background",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "broken",
+      "fg": [
+        "vp_headlight_broken",
+        "vp_headlight_broken",
+        "vp_headlight_broken",
+        "vp_headlight_broken"
+      ]
+    }
+  ]
+}

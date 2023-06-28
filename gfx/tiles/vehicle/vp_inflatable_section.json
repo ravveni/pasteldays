@@ -1,0 +1,43 @@
+{
+  "id": "vp_inflatable_section",
+  "fg": "vp_inflatable_section",
+  "bg": "background",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "broken",
+      "fg": "vp_bfg_mounted_broken"
+    },
+    {
+      "id": "center",
+      "fg": "vp_inflatable_section_center",
+      "bg": "background"
+    },
+    {
+      "id": "corner",
+      "fg": "vp_inflatable_section_corner",
+      "bg": "background"
+    },
+    {
+      "id": "edge",
+      "fg": "vp_inflatable_section_edge",
+      "bg": "background"
+    },
+    {
+      "id": "end_piece",
+      "fg": "vp_inflatable_section_edge",
+      "bg": "background"
+    },
+    {
+      "id": "t_connection",
+      "fg": "vp_inflatable_section_t_connection",
+      "bg": "background"
+    },
+    {
+      "id": "unconnected",
+      "fg": "vp_inflatable_section",
+      "bg": "background"
+    }
+  ]
+}

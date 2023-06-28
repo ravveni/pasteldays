@@ -3,52 +3,32 @@
 from PIL import Image
 import json, math, os, time
 
-tile_ref = {}
+config_ref = {}
+sheet_ref = {}
 
-def add_tiles_to_ref(directory: str, starting_index: int = 1):
-  filenames = []
-
-  for filename in os.listdir(directory):
-    if filename == "0000.png": continue
-
-    if filename.endswith(".png"):
-      filename = filename.split(".")[0]
-      filenames.append(filename)
-
-  filenames.sort()
-
+def add_directory_to_refs(directory, starting_index: int = 0):
+  filenames = files_of(directory, ".png")
   file_index = starting_index
 
   for filename in filenames:
-    if filename not in tile_ref:
-      tile_ref[filename] = file_index
+    if filename not in sheet_ref:
+      sheet_ref[filename] = file_index
+      config_ref[os.path.splitext(os.path.basename(filename))[0]] = file_index
       file_index += 1
 
-def build_ref():
-  # tiles
-  add_tiles_to_ref("gfx/tiles/")
-  next_starting_index = math.ceil(len(tile_ref.keys()) / 16) * 16
-  previous_keys = len(tile_ref.keys())
-
-  # large
-  add_tiles_to_ref("gfx/large/", next_starting_index)
-  keys_added = len(tile_ref.keys()) - previous_keys
-  # next_starting_index = round(keys_added / 16) * 16
-
-def build_spritesheet(directory, tile_size):
+def draw_spritesheet(directory, tile_size):
   tiles = []
 
   directory_path = "gfx/" + directory + "/"
-  files = os.listdir(directory_path)
-  files.sort()
+  files = files_of(directory_path, ".png")
 
   for current_file in files :
-      try:
-          with Image.open(directory_path + current_file) as im :
-              tiles.append(im.getdata())
-      except:
-        # print(current_file + " is not a valid image")
-        pass
+    try:
+      with Image.open(os.path.normpath(current_file)) as im :
+        tiles.append(im.getdata())
+    except:
+      # print(current_file + " is not a valid image")
+      pass
 
   max_tiles_per_row = 16.0
   spritesheet_width = 0
@@ -81,18 +61,14 @@ def build_spritesheet(directory, tile_size):
 
   spritesheet.save("pasteldays/" + directory + ".png", "PNG")
 
-def create_spritesheets():
-  build_spritesheet("tiles", 10)
-  build_spritesheet("large", 20)
-
-def change_sprite_values(value_key: str, json_data: dict) -> dict:
+def change_config_value(value_key: str, json_data: dict) -> dict:
   updated_json = json_data
 
   if value_key in json_data:
     sprite_value_type = type(json_data[value_key])
 
     if sprite_value_type is str:
-      sprite_value = tile_ref[json_data[value_key]]
+      sprite_value = config_ref[json_data[value_key]]
       updated_json[value_key] = int(sprite_value)
 
     elif sprite_value_type is list:
@@ -101,14 +77,14 @@ def change_sprite_values(value_key: str, json_data: dict) -> dict:
 
       if sprite_value_list_type is str:
         for multi_tile_sprite_value in json_data[value_key]:
-          multi_tile_sprite_value_string = tile_ref[multi_tile_sprite_value]
+          multi_tile_sprite_value_string = config_ref[multi_tile_sprite_value]
           updated_json[value_key][multi_tile_index] = int(multi_tile_sprite_value_string)
           multi_tile_index += 1
 
       elif sprite_value_list_type is dict:
         for sprite_value_dict in json_data[value_key]:
           sprite_value_dict_sprite_value = sprite_value_dict["sprite"]
-          sprite_value_string = tile_ref[sprite_value_dict_sprite_value]
+          sprite_value_string = config_ref[sprite_value_dict_sprite_value]
           updated_json[value_key][multi_tile_index]["sprite"] = int(sprite_value_string)
           multi_tile_index += 1
 
@@ -120,7 +96,7 @@ def change_sprite_values(value_key: str, json_data: dict) -> dict:
         sprite_value_type = type(additional_tile[value_key])
 
         if sprite_value_type is str:
-          additional_sprite_value = tile_ref[additional_tile[value_key]]
+          additional_sprite_value = config_ref[additional_tile[value_key]]
           updated_json["additional_tiles"][additional_tile_index][value_key] = int(additional_sprite_value)
 
         elif sprite_value_type is list:
@@ -128,7 +104,7 @@ def change_sprite_values(value_key: str, json_data: dict) -> dict:
           if sprite_value_list_type is str:
             multi_additional_tile_index = 0
             for multi_tile_sprite_value in additional_tile[value_key]:
-              multi_additional_sprite_value = tile_ref[multi_tile_sprite_value]
+              multi_additional_sprite_value = config_ref[multi_tile_sprite_value]
               updated_json["additional_tiles"][additional_tile_index][value_key][multi_additional_tile_index] = int(multi_additional_sprite_value)
               multi_additional_tile_index += 1
 
@@ -136,26 +112,50 @@ def change_sprite_values(value_key: str, json_data: dict) -> dict:
 
   return updated_json
 
-def create_config_addition(directory) -> list:
+def files_of(directory, extension) -> list:
+  filenames = []
+
+  for filename in os.listdir(directory):
+    if filename.endswith(extension):
+      filenames.append(directory + filename)
+
+    if os.path.isdir(directory + filename):
+      holder = files_of(directory + filename + "/", extension)
+      for nested_file in holder:
+        filenames.append(nested_file)
+
+  filenames.sort()
+  return filenames
+
+def fill_item_config(directory) -> list:
   directory_path = "gfx/" + directory + "/"
   directory_json = []
-  json_files = []
-
-  for filename in os.listdir(directory_path):
-    if filename.endswith(".json"):
-      json_files.append(filename)
-
-  json_files.sort()
+  json_files = files_of(directory_path, ".json")
 
   for filename in json_files:
-    with open(directory_path + filename, 'r') as f:
+    with open(filename, 'r') as f:
       file_json = json.load(f)
-      file_json = change_sprite_values("fg", file_json)
-      file_json = change_sprite_values("bg", file_json)
+      file_json = change_config_value("fg", file_json)
+      file_json = change_config_value("bg", file_json)
       directory_json.append(file_json)
       f.close()
 
   return directory_json
+
+def generate_refs():
+  # tiles
+  add_directory_to_refs("gfx/tiles/")
+  next_starting_index = math.ceil(len(sheet_ref.keys()) / 16) * 16
+  previous_keys = len(sheet_ref.keys())
+
+  # large
+  add_directory_to_refs("gfx/large/", next_starting_index)
+  keys_added = len(sheet_ref.keys()) - previous_keys
+  # next_starting_index = round(keys_added / 16) * 16
+
+def generate_spritesheets():
+  draw_spritesheet("tiles", 10)
+  draw_spritesheet("large", 20)
 
 def generate_tile_config():
   tile_config = {}
@@ -164,16 +164,16 @@ def generate_tile_config():
     tile_config = json.load(f)
     f.close()
 
-  tile_config["tiles-new"][0]["tiles"] = create_config_addition("tiles")
-  tile_config["tiles-new"][1]["tiles"] = create_config_addition("large")
+  tile_config["tiles-new"][0]["tiles"] = fill_item_config("tiles")
+  tile_config["tiles-new"][1]["tiles"] = fill_item_config("large")
 
   with open("pasteldays/tile_config.json", "w") as outfile:
     json.dump(tile_config, outfile, indent=2)
     outfile.close()
 
 def main():
-  build_ref()
-  create_spritesheets()
+  generate_refs()
+  generate_spritesheets()
   generate_tile_config()
 
 if __name__ == "__main__":
