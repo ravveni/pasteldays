@@ -4,49 +4,23 @@ from PIL import Image
 import json, math, os, time
 
 config_ref = {}
-tile_ref = {}
+sheet_ref = {}
 
-def add_directory_to_ref(directory, starting_index: int = 0):
-  filenames = build_spritepath_ref(directory)
+def add_directory_to_refs(directory, starting_index: int = 0):
+  filenames = files_of(directory, ".png")
   file_index = starting_index
 
   for filename in filenames:
-    if filename not in tile_ref:
-      tile_ref[filename] = file_index
+    if filename not in sheet_ref:
+      sheet_ref[filename] = file_index
       config_ref[os.path.splitext(os.path.basename(filename))[0]] = file_index
       file_index += 1
 
-def build_ref():
-  # tiles
-  add_directory_to_ref("gfx/tiles/")
-  next_starting_index = math.ceil(len(tile_ref.keys()) / 16) * 16
-  previous_keys = len(tile_ref.keys())
-
-  # large
-  add_directory_to_ref("gfx/large/", next_starting_index)
-  keys_added = len(tile_ref.keys()) - previous_keys
-  # next_starting_index = round(keys_added / 16) * 16
-
-def build_spritepath_ref(directory) -> list:
-  filenames = []
-
-  for filename in os.listdir(directory):
-    if filename.endswith(".png"):
-      filenames.append(directory + filename)
-
-    if os.path.isdir(directory + filename):
-      holder = build_spritepath_ref(directory + filename + "/")
-      for nested_file in holder:
-        filenames.append(nested_file)
-
-  filenames.sort()
-  return filenames
-
-def build_spritesheet(directory, tile_size):
+def draw_spritesheet(directory, tile_size):
   tiles = []
 
   directory_path = "gfx/" + directory + "/"
-  files = build_spritepath_ref(directory_path)
+  files = files_of(directory_path, ".png")
 
   for current_file in files :
     try:
@@ -87,11 +61,7 @@ def build_spritesheet(directory, tile_size):
 
   spritesheet.save("pasteldays/" + directory + ".png", "PNG")
 
-def create_spritesheets():
-  build_spritesheet("tiles", 10)
-  build_spritesheet("large", 20)
-
-def change_sprite_values(value_key: str, json_data: dict) -> dict:
+def change_config_value(value_key: str, json_data: dict) -> dict:
   updated_json = json_data
 
   if value_key in json_data:
@@ -142,35 +112,50 @@ def change_sprite_values(value_key: str, json_data: dict) -> dict:
 
   return updated_json
 
-def get_json_files(directory) -> list:
+def files_of(directory, extension) -> list:
   filenames = []
 
   for filename in os.listdir(directory):
-    if filename.endswith(".json"):
+    if filename.endswith(extension):
       filenames.append(directory + filename)
 
     if os.path.isdir(directory + filename):
-      holder = get_json_files(directory + filename + "/")
+      holder = files_of(directory + filename + "/", extension)
       for nested_file in holder:
         filenames.append(nested_file)
 
   filenames.sort()
   return filenames
 
-def create_config_addition(directory) -> list:
+def fill_item_config(directory) -> list:
   directory_path = "gfx/" + directory + "/"
   directory_json = []
-  json_files = get_json_files(directory_path)
+  json_files = files_of(directory_path, ".json")
 
   for filename in json_files:
     with open(filename, 'r') as f:
       file_json = json.load(f)
-      file_json = change_sprite_values("fg", file_json)
-      file_json = change_sprite_values("bg", file_json)
+      file_json = change_config_value("fg", file_json)
+      file_json = change_config_value("bg", file_json)
       directory_json.append(file_json)
       f.close()
 
   return directory_json
+
+def generate_refs():
+  # tiles
+  add_directory_to_refs("gfx/tiles/")
+  next_starting_index = math.ceil(len(sheet_ref.keys()) / 16) * 16
+  previous_keys = len(sheet_ref.keys())
+
+  # large
+  add_directory_to_refs("gfx/large/", next_starting_index)
+  keys_added = len(sheet_ref.keys()) - previous_keys
+  # next_starting_index = round(keys_added / 16) * 16
+
+def generate_spritesheets():
+  draw_spritesheet("tiles", 10)
+  draw_spritesheet("large", 20)
 
 def generate_tile_config():
   tile_config = {}
@@ -179,16 +164,16 @@ def generate_tile_config():
     tile_config = json.load(f)
     f.close()
 
-  tile_config["tiles-new"][0]["tiles"] = create_config_addition("tiles")
-  tile_config["tiles-new"][1]["tiles"] = create_config_addition("large")
+  tile_config["tiles-new"][0]["tiles"] = fill_item_config("tiles")
+  tile_config["tiles-new"][1]["tiles"] = fill_item_config("large")
 
   with open("pasteldays/tile_config.json", "w") as outfile:
     json.dump(tile_config, outfile, indent=2)
     outfile.close()
 
 def main():
-  build_ref()
-  create_spritesheets()
+  generate_refs()
+  generate_spritesheets()
   generate_tile_config()
 
 if __name__ == "__main__":
