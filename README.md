@@ -4,6 +4,8 @@
 A desaturated, low-contrast version of the NeoDays tileset for Cataclysm: Dark Days Ahead.
 
 # Contributing 
+0. Consider contributing to the original tileset repository
+    - Changes to NeoDays are "ported" over regularly (with credit) and then both tilesets have the addition/change
 1. Limit colours to those those within `templates/duel_palette.png`
 2. Any additions should have a corresponding json file (`templates/example_tile.json` as reference)
     - The `id` for objects can be found by searching the CDDA json game data.
