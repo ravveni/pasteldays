@@ -4,13 +4,13 @@
 A desaturated, low-contrast version of the NeoDays tileset for Cataclysm: Dark Days Ahead.
 
 # Contributing 
-0. Consider contributing to the original tileset repository
-    - Changes to NeoDays are "ported" over regularly (with credit) and then both tilesets have the addition/change
-1. Limit colours to those those within `templates/duel_palette.png`
-2. Any additions should have a corresponding json file (`templates/example_tile.json` as reference)
+0. Consider contributing to the [main CDDA tileset repository](https://github.com/I-am-Erk/CDDA-Tilesets).
+    - Additions/changes to NeoDays are ported over regularly (with credit) and then both tilesets have the update
+1. Limit colours to those those within `templates/duel_palette.png`.
+2. Any additions should have a corresponding json file (`templates/example_tile.json` as reference).
     - The `id` for objects can be found by searching the CDDA json game data.
     - For most tiles, the `id`, `fg`, and image name should be the same
-3. Place png(s) and json file(s) in their respective size and category directories
+3. Place png(s) and json file(s) in their respective size and category directories.
    - tiles - 10x10px
    - large - 20x20px
 4. Run `generate_tileset.py` to compile the final tileset into the `pasteldays` directory.
