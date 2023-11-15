@@ -1,5 +1,3 @@
-![](https://i.imgur.com/6naWCzL.png?raw=true)
-
 # PastelDays
 A desaturated, low-contrast version of the NeoDays tileset for Cataclysm: Dark Days Ahead.
 
