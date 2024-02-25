@@ -1,7 +1,7 @@
 ![](https://github.com/ravveni/pasteldays/blob/main/preview.png?raw=true)
 
 # PastelDays
-A desaturated, low-contrast version of the NeoDays tileset for Cataclysm: Dark Days Ahead (Experimental branch).
+A desaturated, low-contrast version of the NeoDays tileset for Cataclysm: Dark Days Ahead (Experimental).
 
 # Contributing
 0. Consider contributing to the [main CDDA tileset repository](https://github.com/I-am-Erk/CDDA-Tilesets).
