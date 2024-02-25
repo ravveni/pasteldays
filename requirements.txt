@@ -1,2 +1,2 @@
 # Spritesheet generation
-pillow=9.5.0
+pillow=10.1.0
