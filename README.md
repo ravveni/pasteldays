@@ -3,7 +3,7 @@
 # PastelDays
 A desaturated, low-contrast version of the NeoDays tileset for Cataclysm: Dark Days Ahead.
 
-# Contributing 
+# Contributing
 0. Consider contributing to the [main CDDA tileset repository](https://github.com/I-am-Erk/CDDA-Tilesets).
     - Updates to NeoDays are ported over regularly (with credit)
 1. Limit colours to those those within `templates/duel_palette.png`.
