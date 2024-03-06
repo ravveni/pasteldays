@@ -6,5 +6,8 @@ pasteldays/large.png
 # macOS
 .DS_Store
 
+# python
+venv/
+
 # VSCode
 .vscode/
