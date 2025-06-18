@@ -1,8 +1,5 @@
 {
-  "id": [
-    "flashbang_act",
-    "t_lgtn_arrest"
-  ],
+  "id": "flashbang_act",
   "fg": "flashbang_act",
   "rotates": false
 }
