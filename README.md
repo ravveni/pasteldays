@@ -13,7 +13,7 @@ A desaturated, low-contrast version of the NeoDays tileset for Cataclysm: Dark D
 3. Place png(s) and json file(s) in their respective size and category directories.
    - tiles - 10x10px
    - large - 20x20px
-4. Run `generate_tileset.py` to compile the final tileset into the `pasteldays` directory.
+4. Run `generate_tileset.py` to compile the final tileset into the `PastelDaysTileset` directory.
 5. Test in-game to provide screenshots for the PR.
     - Prefixes - `Bugfix, Change, Chore, Feature`
     - Branch name - `prefix-branch_name`

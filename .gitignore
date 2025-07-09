@@ -1,7 +1,7 @@
 # Compiled files
-pasteldays/tile_config.json
-pasteldays/tiles.png
-pasteldays/large.png
+PastelDaysTileset/tile_config.json
+PastelDaysTileset/tiles.png
+PastelDaysTileset/large.png
 
 # macOS
 .DS_Store
