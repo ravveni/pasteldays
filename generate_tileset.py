@@ -59,7 +59,7 @@ def draw_spritesheet(directory, tile_size):
 
       spritesheet.paste(cut_frame, box)
 
-  spritesheet.save("pasteldays/" + directory + ".png", "PNG")
+  spritesheet.save("PastelDaysTileset/" + directory + ".png", "PNG")
 
 def change_config_value(value_key: str, json_data: dict) -> dict:
   updated_json = json_data
@@ -167,7 +167,7 @@ def generate_tile_config():
   tile_config["tiles-new"][0]["tiles"] = fill_item_config("tiles")
   tile_config["tiles-new"][1]["tiles"] = fill_item_config("large")
 
-  with open("pasteldays/tile_config.json", "w") as outfile:
+  with open("PastelDaysTileset/tile_config.json", "w") as outfile:
     json.dump(tile_config, outfile, indent=2)
     outfile.close()
 

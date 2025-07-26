@@ -1,5 +1,5 @@
 # PASTELDAYS
-NAME: pasteldays
+NAME: PastelDays
 VIEW: PastelDays
 JSON: tile_config.json
 TILESET: tiles.png
