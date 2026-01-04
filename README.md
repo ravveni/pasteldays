@@ -1,5 +1,7 @@
 ![](https://github.com/ravveni/pasteldays/blob/main/preview.png?raw=true)
 
+[DEVELOPMENT MOVED TO CODEBERG](https://codeberg.org/ravveni/pasteldays)
+
 # PastelDays
 A desaturated, low-contrast version of the NeoDays tileset for Cataclysm: Dark Days Ahead 0.H.
 
